@@ -31,6 +31,10 @@ export default function Examples() {
   return (
     <Section title="Examples" id="examples">
       <Tabs 
+        // Using identifier for a build in component
+        ButtonsContainer="menu"
+        // Alternative for custom components
+        // ButtonsContainer={Section}
         buttons={
         <>
           <TabButton 
